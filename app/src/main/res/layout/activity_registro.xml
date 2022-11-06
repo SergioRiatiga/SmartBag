@@ -52,13 +52,13 @@
         android:text="Nombres"
         android:textAlignment="textStart" />
     <EditText
-        android:id="@+id/editTextTextNombres"
+        android:id="@+id/editTextTextPersonName"
         android:layout_width="361dp"
         android:layout_height="50dp"
         android:background="@drawable/rounded_corner_view"
         android:ems="10"
         android:hint="  Ingrese Nombres..."
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:textAlignment="textStart" />
 
     <android.widget.Space
@@ -73,13 +73,13 @@
         android:text="Apellidos"
         android:textAlignment="textStart" />
     <EditText
-        android:id="@+id/editTextTextApellidos"
+        android:id="@+id/editTextTextPersonName2"
         android:layout_width="361dp"
         android:layout_height="50dp"
         android:background="@drawable/rounded_corner_view"
         android:ems="10"
         android:hint="  Ingrese Apellidos..."
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:textAlignment="textStart" />
 
     <android.widget.Space
@@ -94,13 +94,13 @@
         android:text="Dirección"
         android:textAlignment="textStart" />
     <EditText
-        android:id="@+id/editTextTextDireccion"
+        android:id="@+id/editTextTextPostalAddress"
         android:layout_width="361dp"
         android:layout_height="50dp"
         android:background="@drawable/rounded_corner_view"
         android:ems="10"
         android:hint="  Ingrese Dirección..."
-        android:inputType="textEmailAddress"
+        android:inputType="textPostalAddress"
         android:textAlignment="textStart" />
 
     <android.widget.Space
@@ -115,13 +115,13 @@
         android:text="Teléfono"
         android:textAlignment="textStart" />
     <EditText
-        android:id="@+id/editTextTextTelefono"
+        android:id="@+id/editTextTextPhone"
         android:layout_width="361dp"
         android:layout_height="50dp"
         android:background="@drawable/rounded_corner_view"
         android:ems="10"
         android:hint="  Ingrese Teléfono..."
-        android:inputType="textEmailAddress"
+        android:inputType="phone"
         android:textAlignment="textStart" />
 
     <android.widget.Space
@@ -149,7 +149,7 @@
         android:layout_height="30dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/registro"
         android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_corner_button"
