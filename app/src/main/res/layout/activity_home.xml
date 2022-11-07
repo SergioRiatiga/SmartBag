@@ -54,7 +54,7 @@
         android:layout_height="40dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/Searchtext"
         android:layout_width="361dp"
         android:layout_height="50dp"
         android:background="@drawable/rounded_corner_view"

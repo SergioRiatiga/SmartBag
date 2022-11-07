@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:foreground="@mipmap/ic_launcher_foreground"
+        android:foregroundGravity="center|center_horizontal"
+        android:scaleX="1"
+        android:scaleY="1"
+        android:translationY="-15dp"
+        app:srcCompat="@drawable/rounded_corner_banner" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:shadowColor="@color/secondaryTextColor"
+        android:text="Smart Bag"
+        android:textColor="@color/secondaryTextColor"
+        android:textStyle="bold"
+        android:translationY="-50dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:translationX="-30dp"
+        android:translationY="-105dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="61dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                app:srcCompat="@drawable/ic_action_name" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                app:srcCompat="@drawable/ic_action_shop" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:translationY="-60dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/Searchtext"
+                android:layout_width="238dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/rounded_corner_view"
+                android:ems="10"
+                android:gravity="center_vertical"
+                android:hint="Busca en Smart Bag"
+                android:inputType="textFilter"
+                android:textAlignment="textStart" />
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:clickable="true"
+                tools:ignore="DuplicateClickableBoundsCheck">
+
+            </SearchView>
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:translationY="-48dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/fyv"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/rounded_corner_button"
+                tools:srcCompat="@drawable/one" />
+
+            <ImageView
+                android:id="@+id/lyh"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/rounded_corner_button"
+                tools:srcCompat="@drawable/two" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textfyv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Frutas y verduras"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textlyh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Lacteos y huevos"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gyd"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/rounded_corner_button"
+                tools:srcCompat="@drawable/three" />
+
+            <ImageView
+                android:id="@+id/carnes"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/rounded_corner_button"
+                tools:srcCompat="@drawable/four" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textgyd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Granos y despensa"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textcarnes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Carnes"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bebidas"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/rounded_corner_button"
+                tools:srcCompat="@drawable/five" />
+
+            <ImageView
+                android:id="@+id/cyl"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/rounded_corner_button"
+                tools:srcCompat="@drawable/six" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textbebidas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Bebidas"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textbyl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Cervezas y licores"
+                android:textColor="#000000" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

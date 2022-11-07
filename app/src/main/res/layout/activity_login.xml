@@ -39,7 +39,7 @@
         android:layout_height="19dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/Searchtext"
         android:layout_width="361dp"
         android:layout_height="59dp"
         android:background="@drawable/rounded_corner_view"
