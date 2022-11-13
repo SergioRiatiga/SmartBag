@@ -7,7 +7,7 @@ import android.os.Handler
 import android.os.Looper
 import com.misiontic2022.smartbag.R
 import com.misiontic2022.smartbag.databinding.ActivityMainBinding
-import kotlinx.coroutines.delay
+import kotlinx.coroutines
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
